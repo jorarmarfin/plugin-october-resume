@@ -1,0 +1,6 @@
+plugin:
+    name: 'luismayta.resume::lang.plugin.name'
+    description: 'luismayta.resume::lang.plugin.description'
+    author: 'Luis Mayta'
+    icon: oc-icon-graduation-cap
+    homepage: ''
