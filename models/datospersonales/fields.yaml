@@ -1,0 +1,37 @@
+fields:
+    nombre_completo:
+        label: 'Nombre Completo'
+        span: full
+        type: text
+    nombre_corto:
+        label: 'Nombre Corto'
+        span: auto
+        type: text
+    titulo:
+        label: Titulo
+        span: auto
+        type: text
+    fecha_nacimiento:
+        label: 'Fecha de Nacimiento'
+        mode: datetime
+        span: auto
+        type: datepicker
+    estado_civil:
+        label: 'Estado Civil'
+        options:
+            soltero: Soltero
+            casado: Casado
+        showSearch: true
+        span: auto
+        type: dropdown
+    foto:
+        label: Foto
+        mode: image
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

@@ -3,3 +3,12 @@
 1.0.2:
     - 'Created table luismayta_resume_datos_personales'
     - builder_table_create_luismayta_resume_datos_personales.php
+1.0.3:
+    - 'Created table luismayta_resume_redes'
+    - builder_table_create_luismayta_resume_redes.php
+1.0.4:
+    - 'Drop table luismayta_resume_redes'
+    - builder_table_delete_luismayta_resume_redes.php
+1.0.5:
+    - 'Updated table luismayta_resume_datos_personales'
+    - builder_table_update_luismayta_resume_datos_personales.php

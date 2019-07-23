@@ -4,3 +4,8 @@ plugin:
     author: 'Luis Mayta'
     icon: oc-icon-graduation-cap
     homepage: ''
+navigation:
+    main-menu-item:
+        label: 'My Cv'
+        url: luismayta/resume/datospersonales
+        icon: icon-graduation-cap

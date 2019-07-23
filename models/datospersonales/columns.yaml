@@ -1,0 +1,4 @@
+columns:
+    nombre_completo:
+        label: 'Nombre Completo'
+        type: text
