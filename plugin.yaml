@@ -4,3 +4,13 @@ plugin:
     author: 'Luis Mayta'
     icon: oc-icon-graduation-cap
     homepage: ''
+navigation:
+    main-menu-item:
+        label: Resume
+        url: luismayta/resume/sitiocontroller
+        icon: icon-graduation-cap
+        sideMenu:
+            side-menu-item:
+                label: 'Datos personales'
+                url: luismayta/resume/datospersonalescontroller
+                icon: icon-user

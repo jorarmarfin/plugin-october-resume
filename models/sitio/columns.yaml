@@ -1,0 +1,12 @@
+columns:
+    titulo:
+        label: Titulo
+        type: text
+    fondo:
+        label: Fondo
+        type: partial
+        path: $/luismayta/resume/models/sitio/_fondo.htm
+    logo:
+        label: Logo
+        type: partial
+        path: $/luismayta/resume/models/sitio/_logo.htm

@@ -1,0 +1,7 @@
+columns:
+    nombre_completo:
+        label: 'Nombre completo'
+        type: text
+    nombre_corto:
+        label: 'Nombre Corto'
+        type: text

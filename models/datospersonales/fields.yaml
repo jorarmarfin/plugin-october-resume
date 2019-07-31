@@ -1,0 +1,79 @@
+tabs:
+    fields:
+        nombre_completo:
+            label: 'Nombre completo'
+            span: auto
+            type: text
+            tab: 'Datos Personales'
+        nombre_corto:
+            label: 'Nombre corto'
+            span: auto
+            type: text
+            tab: 'Datos Personales'
+        fecha_nacimiento:
+            label: 'Fecha de nacimiento'
+            mode: date
+            span: auto
+            type: datepicker
+            tab: 'Datos Personales'
+        estado_civil:
+            label: 'Estado civil'
+            options:
+                soltero: Soltero
+                casado: Casado
+            span: auto
+            type: dropdown
+            tab: 'Datos Personales'
+        foto:
+            label: Fotografía
+            mode: image
+            imageWidth: '300'
+            imageHeight: '400'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Datos Personales'
+        redes_sociales:
+            label: 'Redes Sociales'
+            prompt: 'Add new item'
+            span: auto
+            type: repeater
+            tab: 'Datos Personales'
+            form:
+                fields:
+                    tipo:
+                        label: Tipo
+                        options:
+                            social-icons-facebook: Facebook
+                            social-icons-twitter: Twitter
+                        span: auto
+                        type: dropdown
+                    link:
+                        label: Link
+                        span: auto
+                        type: text
+        perfil:
+            label: 'My Perfil'
+            span: auto
+            type: text
+            tab: 'Datos tecnicos'
+        slogan:
+            label: 'My Slogan'
+            span: auto
+            type: text
+            tab: 'Datos tecnicos'
+        descripcion_corta:
+            label: 'Descripción corta'
+            size: small
+            span: auto
+            type: textarea
+            tab: 'Datos tecnicos'
+        descripcion:
+            label: Descripcion
+            size: large
+            span: full
+            type: richeditor
+            tab: 'Datos tecnicos'

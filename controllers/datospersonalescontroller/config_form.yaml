@@ -1,0 +1,10 @@
+name: DatosPersonalesController
+form: $/luismayta/resume/models/datospersonales/fields.yaml
+modelClass: LuisMayta\Resume\Models\DatosPersonales
+defaultRedirect: luismayta/resume/datospersonalescontroller
+create:
+    redirect: 'luismayta/resume/datospersonalescontroller/update/:id'
+    redirectClose: luismayta/resume/datospersonalescontroller
+update:
+    redirect: luismayta/resume/datospersonalescontroller
+    redirectClose: luismayta/resume/datospersonalescontroller

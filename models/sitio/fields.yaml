@@ -1,0 +1,27 @@
+fields:
+    titulo:
+        label: 'Nombre del Sitio'
+        span: full
+        type: text
+    fondo:
+        label: 'File upload'
+        mode: image
+        imageWidth: '300'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    logo:
+        label: logo
+        mode: image
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

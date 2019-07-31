@@ -1,0 +1,12 @@
+list: $/luismayta/resume/models/sitio/columns.yaml
+modelClass: LuisMayta\Resume\Models\Sitio
+title: SitioController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'luismayta/resume/sitiocontroller/update/:id'

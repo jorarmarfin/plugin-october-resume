@@ -3,3 +3,24 @@
 1.0.2:
     - 'Created table luismayta_resume_datos_personales'
     - builder_table_create_luismayta_resume_datos_personales.php
+1.0.3:
+    - 'Created table luismayta_resume_sitio'
+    - builder_table_create_luismayta_resume_sitio.php
+1.0.4:
+    - 'Updated table luismayta_resume_sitio'
+    - builder_table_update_luismayta_resume_sitio.php
+1.0.5:
+    - 'Updated table luismayta_resume_datos_personales'
+    - builder_table_update_luismayta_resume_datos_personales.php
+1.0.6:
+    - 'Updated table luismayta_resume_datos_personales'
+    - builder_table_update_luismayta_resume_datos_personales_2.php
+1.0.7:
+    - 'Updated table luismayta_resume_datos_personales'
+    - builder_table_update_luismayta_resume_datos_personales_3.php
+1.0.8:
+    - 'Updated table luismayta_resume_datos_personales'
+    - builder_table_update_luismayta_resume_datos_personales_4.php
+1.0.9:
+    - 'Updated table luismayta_resume_datos_personales'
+    - builder_table_update_luismayta_resume_datos_personales_5.php
