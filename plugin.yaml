@@ -14,3 +14,7 @@ navigation:
                 label: 'Datos personales'
                 url: luismayta/resume/datospersonalescontroller
                 icon: icon-user
+            side-menu-item2:
+                label: Experiencia
+                url: luismayta/resume/experienciacontroller
+                icon: icon-area-chart

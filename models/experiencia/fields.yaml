@@ -1,0 +1,32 @@
+fields:
+    empresa:
+        label: Empresa
+        span: auto
+        type: text
+    rubro:
+        label: Rubro
+        span: auto
+        type: text
+    cargo:
+        label: Cargo
+        span: auto
+        type: text
+    fecha_ini:
+        label: 'Fecha inicio'
+        mode: date
+        span: auto
+        type: datepicker
+    fecha_fin:
+        label: 'Fecha fin'
+        mode: date
+        span: auto
+        type: datepicker
+    actual:
+        label: Actual
+        span: auto
+        type: switch
+    descripcion:
+        label: Descripción
+        size: small
+        span: auto
+        type: richeditor

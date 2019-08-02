@@ -1,0 +1,10 @@
+name: ExperienciaController
+form: $/luismayta/resume/models/experiencia/fields.yaml
+modelClass: LuisMayta\Resume\Models\Experiencia
+defaultRedirect: luismayta/resume/experienciacontroller
+create:
+    redirect: 'luismayta/resume/experienciacontroller/update/:id'
+    redirectClose: luismayta/resume/experienciacontroller
+update:
+    redirect: luismayta/resume/experienciacontroller
+    redirectClose: luismayta/resume/experienciacontroller

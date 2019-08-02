@@ -1,6 +1,6 @@
-list: $/luismayta/resume/models/datospersonales/columns.yaml
-modelClass: LuisMayta\Resume\Models\DatosPersonales
-title: DatosPersonales
+list: $/luismayta/resume/models/experiencia/columns.yaml
+modelClass: LuisMayta\Resume\Models\Experiencia
+title: ExperienciaController
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
 showCheckboxes: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'luismayta/resume/datospersonales/update/:id'
+recordUrl: 'luismayta/resume/experienciacontroller/update/:id'

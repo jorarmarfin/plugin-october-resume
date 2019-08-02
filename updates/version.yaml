@@ -24,3 +24,6 @@
 1.0.9:
     - 'Updated table luismayta_resume_datos_personales'
     - builder_table_update_luismayta_resume_datos_personales_5.php
+1.0.10:
+    - 'Created table luismayta_resume_experiencia'
+    - builder_table_create_luismayta_resume_experiencia.php

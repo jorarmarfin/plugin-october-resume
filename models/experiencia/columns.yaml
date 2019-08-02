@@ -1,0 +1,13 @@
+columns:
+    empresa:
+        label: Empresa
+        type: text
+    cargo:
+        label: Cargo
+        type: text
+    fecha_ini:
+        label: 'Fecha inicio'
+        type: date
+    fecha_fin:
+        label: 'Fecha fin'
+        type: date
