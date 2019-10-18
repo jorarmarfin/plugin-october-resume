@@ -1,0 +1,10 @@
+name: EducacionController
+form: $/luismayta/resume/models/educacion/fields.yaml
+modelClass: LuisMayta\Resume\Models\Educacion
+defaultRedirect: luismayta/resume/educacioncontroller
+create:
+    redirect: 'luismayta/resume/educacioncontroller/update/:id'
+    redirectClose: luismayta/resume/educacioncontroller
+update:
+    redirect: luismayta/resume/educacioncontroller
+    redirectClose: luismayta/resume/educacioncontroller

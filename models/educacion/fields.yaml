@@ -1,0 +1,13 @@
+fields:
+    institucion:
+        label: Intitución
+        span: auto
+        type: text
+    descripcion:
+        label: Descripción
+        span: full
+        type: text
+    rango_fecha:
+        label: 'Rango de fecha'
+        span: auto
+        type: text

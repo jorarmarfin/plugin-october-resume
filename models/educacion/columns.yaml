@@ -1,0 +1,10 @@
+columns:
+    institucion:
+        label: Institución
+        type: text
+    descripcion:
+        label: Descripción
+        type: text
+    rango_fecha:
+        label: 'Rango de fecha'
+        type: text

@@ -1,0 +1,9 @@
+fields:
+    nombre:
+        label: Nombre
+        span: left
+        type: text
+    porcentaje:
+        label: Porcentaje
+        span: right
+        type: number

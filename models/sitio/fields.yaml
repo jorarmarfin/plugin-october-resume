@@ -4,7 +4,7 @@ fields:
         span: full
         type: text
     fondo:
-        label: 'File upload'
+        label: Fondo
         mode: image
         imageWidth: '300'
         imageHeight: '200'

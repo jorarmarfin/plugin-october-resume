@@ -1,0 +1,10 @@
+name: HabilidadesController
+form: $/luismayta/resume/models/habilidades/fields.yaml
+modelClass: LuisMayta\Resume\Models\Habilidades
+defaultRedirect: luismayta/resume/habilidadescontroller
+create:
+    redirect: 'luismayta/resume/habilidadescontroller/update/:id'
+    redirectClose: luismayta/resume/habilidadescontroller
+update:
+    redirect: luismayta/resume/habilidadescontroller
+    redirectClose: luismayta/resume/habilidadescontroller

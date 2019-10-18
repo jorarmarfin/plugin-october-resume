@@ -42,3 +42,6 @@
 1.0.15:
     - 'Created table luismayta_resume_referencias'
     - builder_table_create_luismayta_resume_referencias.php
+1.0.16:
+    - 'Updated table luismayta_resume_educacion'
+    - builder_table_update_luismayta_resume_educacion.php

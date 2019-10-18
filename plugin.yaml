@@ -7,14 +7,22 @@ plugin:
 navigation:
     main-menu-item:
         label: Resume
-        url: luismayta/resume/sitiocontroller
+        url: luismayta/resume/sitiocontroller/update/1
         icon: icon-graduation-cap
         sideMenu:
             side-menu-item:
                 label: 'Datos personales'
-                url: luismayta/resume/datospersonalescontroller
+                url: luismayta/resume/datospersonalescontroller/update/1
                 icon: icon-user
             side-menu-item2:
                 label: Experiencia
                 url: luismayta/resume/experienciacontroller
                 icon: icon-area-chart
+            side-menu-item3:
+                label: Educación
+                url: luismayta/resume/educacioncontroller
+                icon: icon-graduation-cap
+            side-menu-item4:
+                label: Habilidades
+                url: luismayta/resume/habilidadescontroller
+                icon: icon-angellist
