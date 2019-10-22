@@ -45,3 +45,24 @@
 1.0.16:
     - 'Updated table luismayta_resume_educacion'
     - builder_table_update_luismayta_resume_educacion.php
+1.0.17:
+    - 'Updated table luismayta_resume_sitio'
+    - builder_table_update_luismayta_resume_sitio_2.php
+1.0.18:
+    - 'Updated table luismayta_resume_referencias'
+    - builder_table_update_luismayta_resume_referencias.php
+1.0.19:
+    - 'Updated table luismayta_resume_portafolio'
+    - builder_table_update_luismayta_resume_portafolio.php
+1.0.20:
+    - 'Updated table luismayta_resume_idiomas'
+    - builder_table_update_luismayta_resume_idiomas.php
+1.0.21:
+    - 'Updated table luismayta_resume_habilidades'
+    - builder_table_update_luismayta_resume_habilidades.php
+1.0.22:
+    - 'Updated table luismayta_resume_educacion'
+    - builder_table_update_luismayta_resume_educacion_2.php
+1.0.23:
+    - 'Updated table luismayta_resume_idiomas'
+    - builder_table_update_luismayta_resume_idiomas_2.php

@@ -26,3 +26,11 @@ navigation:
                 label: Habilidades
                 url: luismayta/resume/habilidadescontroller
                 icon: icon-angellist
+            side-menu-item5:
+                label: Idiomas
+                url: luismayta/resume/idiomascontroller
+                icon: icon-sort-alpha-asc
+            side-menu-item6:
+                label: Portafolio
+                url: luismayta/resume/portafolio
+                icon: icon-sitemap

@@ -1,0 +1,7 @@
+columns:
+    nombre:
+        label: Nombre
+        type: text
+    categoria:
+        label: Categoria
+        type: text

@@ -1,0 +1,10 @@
+name: IdiomasController
+form: $/luismayta/resume/models/idiomas/fields.yaml
+modelClass: LuisMayta\Resume\Models\Idiomas
+defaultRedirect: luismayta/resume/idiomascontroller
+create:
+    redirect: 'luismayta/resume/idiomascontroller/update/:id'
+    redirectClose: luismayta/resume/idiomascontroller
+update:
+    redirect: luismayta/resume/idiomascontroller
+    redirectClose: luismayta/resume/idiomascontroller

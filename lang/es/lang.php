@@ -1,6 +1,6 @@
 <?php return [
     'plugin' => [
         'name' => 'Resume',
-        'description' => ''
-    ]
+        'description' => 'Contenido de un Cv profesional',
+    ],
 ];

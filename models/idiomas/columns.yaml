@@ -1,0 +1,7 @@
+columns:
+    idioma:
+        label: Idioma
+        type: text
+    nivel:
+        label: Nivel
+        type: text

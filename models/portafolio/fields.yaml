@@ -1,0 +1,20 @@
+fields:
+    nombre:
+        label: Nombre
+        span: auto
+        type: text
+    categoria:
+        label: Categoría
+        span: auto
+        type: text
+    trabajo:
+        label: 'File upload'
+        mode: image
+        imageWidth: '300'
+        imageHeight: '400'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

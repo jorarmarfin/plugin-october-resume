@@ -1,0 +1,22 @@
+fields:
+    idioma:
+        label: Idioma
+        span: auto
+        type: text
+    bandera:
+        label: Dropdown
+        options:
+            es: Español
+            en: Ingles
+        showSearch: true
+        span: auto
+        type: dropdown
+    nivel:
+        label: Nivel
+        options:
+            basico: Básico
+            intermedio: Intermedio
+            avanzado: Avanzado
+        showSearch: true
+        span: auto
+        type: dropdown
