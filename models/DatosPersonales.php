@@ -8,11 +8,13 @@ use Model;
 class DatosPersonales extends Model
 {
     use \October\Rain\Database\Traits\Validation;
-    
+
     /*
      * Disable timestamps by default.
      * Remove this line if timestamps are defined in the database table.
      */
+    protected $guarded = [];
+    
     public $timestamps = false;
 
 
