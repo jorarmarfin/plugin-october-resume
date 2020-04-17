@@ -1,0 +1,7 @@
+columns:
+    remitente:
+        label: Remitente
+        type: text
+    asunto:
+        label: Asunto
+        type: text

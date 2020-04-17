@@ -1,0 +1,10 @@
+name: PortafolioController
+form: $/luismayta/resume/models/portafolio/fields.yaml
+modelClass: LuisMayta\Resume\Models\Portafolio
+defaultRedirect: luismayta/resume/portafoliocontroller
+create:
+    redirect: 'luismayta/resume/portafoliocontroller/update/:id'
+    redirectClose: luismayta/resume/portafoliocontroller
+update:
+    redirect: luismayta/resume/portafoliocontroller
+    redirectClose: luismayta/resume/portafoliocontroller

@@ -1,0 +1,10 @@
+name: RecomendacionesController
+form: $/luismayta/resume/models/recomendaciones/fields.yaml
+modelClass: LuisMayta\Resume\Models\Recomendaciones
+defaultRedirect: luismayta/resume/recomendacionescontroller
+create:
+    redirect: 'luismayta/resume/recomendacionescontroller/update/:id'
+    redirectClose: luismayta/resume/recomendacionescontroller
+update:
+    redirect: luismayta/resume/recomendacionescontroller
+    redirectClose: luismayta/resume/recomendacionescontroller

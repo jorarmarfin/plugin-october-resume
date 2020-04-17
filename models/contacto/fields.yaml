@@ -1,0 +1,14 @@
+fields:
+    remitente:
+        label: Remitente
+        span: auto
+        type: text
+    asunto:
+        label: Asunto
+        span: full
+        type: text
+    mensaje:
+        label: Mensaje
+        size: large
+        span: full
+        type: textarea

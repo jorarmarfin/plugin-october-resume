@@ -8,10 +8,10 @@ fields:
         span: auto
         type: text
     trabajo:
-        label: 'File upload'
+        label: 'Imagen del Trabajo'
         mode: image
-        imageWidth: '300'
-        imageHeight: '400'
+        imageWidth: '200'
+        imageHeight: '300'
         useCaption: true
         thumbOptions:
             mode: crop

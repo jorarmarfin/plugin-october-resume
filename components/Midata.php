@@ -1,13 +1,20 @@
 <?php namespace LuisMayta\Resume\Components;
 
+use Input;
+use Flash;
+use Redirect;
+use Validator;
 use Carbon\Carbon;
 use Cms\Classes\ComponentBase;
 use LuisMayta\Resume\Models\Sitio;
 use LuisMayta\Resume\Models\Idiomas;
+use LuisMayta\Resume\Models\Contacto;
 use LuisMayta\Resume\Models\Educacion;
+use LuisMayta\Resume\Models\Portafolio;
 use LuisMayta\Resume\Models\Experiencia;
 use LuisMayta\Resume\Models\Habilidades;
 use LuisMayta\Resume\Models\DatosPersonales;
+use LuisMayta\Resume\Models\Recomendaciones;
 
 class Midata extends ComponentBase
 {
@@ -26,6 +33,8 @@ class Midata extends ComponentBase
         $this->DatosEducacion();
         $this->DatosHabilidades();
         $this->DatosIdiomas();
+        $this->DatosPortafolio();
+        $this->DatosRecomendaciones();
     }
     public function DatosPersonales()
     {
@@ -74,6 +83,40 @@ class Midata extends ComponentBase
     {
         $Idiomas = Idiomas::get();
         $this->page['idiomas'] = $Idiomas;
+    }
+    public function DatosPortafolio()
+    {
+        $Categorias = Portafolio::Categorias()->get();
+        $Portafolio = Portafolio::get();
+        $this->page['categorias'] = $Categorias;
+        $this->page['portafolio'] = $Portafolio;
+    }
+    public function DatosRecomendaciones()
+    {
+        $Recomendaciones = Recomendaciones::get();
+        $this->page['recomendaciones'] = $Recomendaciones;
+    }
+    public function onSend()
+    {
+        $data = post();
+        $rules = [
+            'remitente' => 'required',
+            'asunto' => 'required',
+            'mensaje' => 'required',
+        ];
+
+        $validation = Validator::make($data, $rules);
+
+        if ($validation->fails()) {
+            Flash::error('Error de envio');
+        }else{
+            $contacto = new Contacto();
+            $contacto->remitente = Input::get('remitente');
+            $contacto->asunto = Input::get('asunto');
+            $contacto->mensaje = Input::get('mensaje');
+            $contacto->save();
+            Flash::success('Mensaje enviado');
+        }
     }
 
 }

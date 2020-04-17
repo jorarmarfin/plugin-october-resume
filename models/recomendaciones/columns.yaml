@@ -1,0 +1,7 @@
+columns:
+    referencia:
+        label: Referencia
+        type: text
+    cargo:
+        label: Cargo
+        type: text

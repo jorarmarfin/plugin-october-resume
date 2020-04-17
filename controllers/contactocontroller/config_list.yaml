@@ -1,6 +1,6 @@
-list: $/luismayta/resume/models/portafolio/columns.yaml
-modelClass: LuisMayta\Resume\Models\Portafolio
-title: Portafolio
+list: $/luismayta/resume/models/contacto/columns.yaml
+modelClass: LuisMayta\Resume\Models\Contacto
+title: ContactoController
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
 showCheckboxes: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'luismayta/resume/portafolio/update/:id'
+recordUrl: 'luismayta/resume/contactocontroller/update/:id'

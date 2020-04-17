@@ -1,0 +1,10 @@
+name: ContactoController
+form: $/luismayta/resume/models/contacto/fields.yaml
+modelClass: LuisMayta\Resume\Models\Contacto
+defaultRedirect: luismayta/resume/contactocontroller
+create:
+    redirect: 'luismayta/resume/contactocontroller/update/:id'
+    redirectClose: luismayta/resume/contactocontroller
+update:
+    redirect: luismayta/resume/contactocontroller
+    redirectClose: luismayta/resume/contactocontroller

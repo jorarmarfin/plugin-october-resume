@@ -66,3 +66,12 @@
 1.0.23:
     - 'Updated table luismayta_resume_idiomas'
     - builder_table_update_luismayta_resume_idiomas_2.php
+1.0.24:
+    - 'Created table luismayta_resume_recomendaciones'
+    - builder_table_create_luismayta_resume_recomendaciones.php
+1.0.25:
+    - 'Updated table luismayta_resume_recomendaciones'
+    - builder_table_update_luismayta_resume_recomendaciones.php
+1.0.26:
+    - 'Created table luismayta_resume_contacto'
+    - builder_table_create_luismayta_resume_contacto.php

@@ -32,5 +32,13 @@ navigation:
                 icon: icon-sort-alpha-asc
             side-menu-item6:
                 label: Portafolio
-                url: luismayta/resume/portafolio
+                url: luismayta/resume/portafoliocontroller
                 icon: icon-sitemap
+            side-menu-item7:
+                label: Recomendaciones
+                url: luismayta/resume/recomendacionescontroller
+                icon: icon-arrows-alt
+            side-menu-item8:
+                label: Contacto
+                url: luismayta/resume/contactocontroller
+                icon: icon-send

@@ -1,0 +1,14 @@
+fields:
+    referencia:
+        label: Refencia
+        span: left
+        type: text
+    cargo:
+        label: Cargo
+        span: auto
+        type: text
+    recomendacion:
+        label: Recomendacion
+        size: large
+        span: full
+        type: textarea
